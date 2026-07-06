@@ -9,3 +9,22 @@ root of this project directory using node.
 Name the script 'start'. 
 
 Demonstrate how to run this script using npm.
+
+
+Answer:
+
+In package.json, add the following under "scripts":
+
+```
+"scripts": {
+  "start": "node index.js"
+}
+
+```
+
+Run the script:
+
+```
+npm run start
+
+```
